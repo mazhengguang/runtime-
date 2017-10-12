@@ -1,7 +1,12 @@
 # runtime-
 runtime使用场景======场景1(动态给分类添加属性);场景2(方法的交换swizzling);场景3(字典转模型);场景4(获取所有的私有属性和方法);场景5(对私有属性修改);场景6(归档:解档);场景7(动态的添加方法)
 
-#GCD相关-
+
+
+
+
+
+# GCD-
 class ViewController: UIViewController {
     
     private static var once = ViewController() // 单例模式
